@@ -14,7 +14,15 @@
 #define SET 5
 
 / {
-
+    combos {
+        compatible = "zmk,combos";
+		// both right thumb keys
+        combo_set {
+            timeout-ms = <300>;
+            key-positions = <32 33>;
+            bindings = <&mo SET>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
