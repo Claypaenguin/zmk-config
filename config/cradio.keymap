@@ -25,6 +25,12 @@
             key-positions = <32 33>;
             bindings = <&mo SET>;
         };
+
+        combo_acc {
+            bindings = <&mo 6>;
+            key-positions = <30 31>;
+            timeout-ms = <300>;
+        };
     };
 
     keymap {
@@ -41,10 +47,10 @@
 
         ext_layer {
             bindings = <
-&kp ESC    &none      &none       &none      &none          &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPSLOCK
-&sk LALT   &sk LGUI   &sk LSHIFT  &sk LCTRL  &sk RALT       &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp LG(TAB)    &kp LA(BSPC)  &kp BSPC  &kp TAB   &none      &kp PSCRN
-                                  &none      &none          &kp ENTER     &mo FN
+&kp ESC    &none      &none       &none      &none       &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPSLOCK
+&sk LALT   &sk LGUI   &sk LSHIFT  &sk LCTRL  &sk RALT    &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &none       &kp LA(BSPC)  &kp BSPC  &kp TAB   &none      &kp PSCRN
+                                  &none      &none       &kp ENTER     &mo FN
             >;
         };
 
@@ -81,6 +87,15 @@
 &none        &none  &none  &none       &bt BT_SEL 1    &bt BT_SEL 4  &none  &none  &none  &none
 &none        &none  &none  &none       &bt BT_SEL 2    &bt BT_SEL 5  &none  &none  &none  &none
                            &none       &none           &none         &none
+            >;
+        };
+
+        acc_layer {
+            bindings = <
+&none  &none  &none  &none  &none    &none  &kp LBKT  &none  &kp SEMI  &none
+&none  &none  &none  &none  &none    &none  &none     &none  &none     &none
+&none  &none  &none  &none  &none    &none  &none     &none  &none     &none
+                     &none  &none    &none  &none
             >;
         };
     };
