@@ -92,10 +92,10 @@
 
         acc_layer {
             bindings = <
-&none  &none  &none  &none  &none    &none  &kp LBKT  &none  &kp SEMI  &none
-&none  &none  &none  &none  &none    &none  &none     &none  &none     &none
-&none  &none  &none  &none  &none    &none  &none     &none  &none     &none
-                     &none  &none    &none  &none
+&none             &none      &none  &none  &none    &none  &kp LBKT  &none  &kp SEMI  &none
+&kp SINGLE_QUOTE  &kp MINUS  &none  &none  &none    &none  &none     &none  &none     &none
+&none             &none      &none  &none  &none    &none  &none     &none  &none     &none
+                                    &none  &none    &none  &none
             >;
         };
     };
