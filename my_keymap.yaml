@@ -1,0 +1,218 @@
+layout: {qmk_keyboard: ferris/sweep}
+layers:
+  default: [Q, W, E, R, T, Z, U, I, O, P, A, S, D, F, G, H, J, K, L, {t: '#', s: "'"}, Y, X, C, V, B, N, M, {t: ',', s: ';'}, {t: '.', s: ':'} , {t: '-', s: '_'}, ext, LSHIFT, SPACE, sym]
+  ext:
+  - ESC
+  - ''
+  - ''
+  - ''
+  - ''
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - CAPSLOCK
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: RALT, h: sticky}
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - DEL
+  - LG(Z)
+  - LG(X)
+  - LG(C)
+  - LG(V)
+  - ''
+  - LA(BSPC)
+  - BSPC
+  - TAB
+  - ''
+  - PSCRN
+  - {type: held}
+  - ''
+  - ENTER
+  - fn
+  sym:
+  - '!'
+  - '"'
+  - '§'
+  - $
+  - '%'
+  - '|'
+  - '€'
+  - '@'
+  - NUBS
+  - LS(NUBS)
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: RALT, h: sticky}
+  - /
+  - '('
+  - '{'
+  - '['
+  - '<'
+  - '&'
+  - '?'
+  - '´'
+  - '`'
+  - '~'
+  - '\'
+  - ')'
+  - '}'
+  - ']' 
+  - '>'
+  - fn
+  - num
+  - ''
+  - {type: held}
+  fn:
+  - PREV
+  - PP
+  - NEXT
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - ''
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - MUTE
+  - VOL DN
+  - VOLUME UP
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '='
+  - '7'
+  - '8'
+  - '9'
+  - '+'
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - ''
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '/'
+  - ''
+  - {type: held}
+  - ''
+  - {type: held}
+  set:
+  - '&bootloader'
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '1'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '5'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  acc:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'ü'
+  - ''
+  - ö
+  - ''
+  - 'ä'
+  - 'ß'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+combos:
+- p: [32, 33]
+  k: set
+- p: [30, 31]
+  k: acc
