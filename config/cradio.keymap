@@ -98,5 +98,14 @@
                                     &none  &none    &none  &none
             >;
         };
+
+        ext_layer_win {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
     };
 };
